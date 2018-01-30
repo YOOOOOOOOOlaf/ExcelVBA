@@ -61,5 +61,16 @@ MsgBox Workbooks(1).Name
 '關閉整個Excel
 Application.Quit
 
+'Dim 變數名稱 As 變數類型
+'萬用類型變數Variant：宣告時不指定變數類型，則預設為Variant，執行效能差；未經宣告的變數預設為Variant
+
+'程式碼開頭加上
+Option Explicit '強迫變數宣告，否則編譯出現錯誤訊息
+
+'公開變數
+'Public 變數名稱 As 變數類型
+
+'常數
+'Const 變數名稱 As 變數類型 
 
 
